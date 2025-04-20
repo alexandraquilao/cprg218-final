@@ -1,4 +1,44 @@
 *{
     box-sizing: border-box;
+    
+}
+
+body{
+   background-color: #F8EFE5; 
+}
+
+.logo{
+    height: 60px;
+    width: auto;
+}
+
+.site-header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
     background-color: #F8EFE5;
+    padding: 1rem 2rem
+}
+
+.topnav {
+    background-color: #5d768b ;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 0.75rem 0;
+    font-family: sans-serif;
+}
+
+.topnav a {
+    color: #F8EFE5;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid transparent;
+    background: none;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Playfair Display', serif;
 }
